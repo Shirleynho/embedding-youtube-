@@ -1,0 +1,199 @@
+body {
+	background-color: #f1f1f1;
+	font-family: Roboto, arial; 
+}
+.header {
+	height: 28px;
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	border-bottom: .1px #f9f9f9 solid;
+	padding: 10px 20px;
+	z-index: 1;
+}
+
+li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.header-img {
+	margin-top: 0px;	
+	margin-left: -25px;
+	float: left;	
+}
+
+.search-bar {
+	margin-left: 50px;
+}
+
+.submit {
+	height: 28px;	
+	border: 1px solid #CBCBCC;
+	border-radius: 2px;
+	vertical-align: bottom;
+	font-family: arial;
+	font-size: 11px;
+	padding: 0px 10px;
+}
+
+.search {
+	width: 60px;
+	margin-left: -6px;
+
+}
+
+input[type="text"] {
+	border: 1px solid #cbcbcc;
+	width: 50%;
+	padding: 2px 5px;
+	font-size: 18px;
+}
+
+.video-container {
+	width: 100%;
+	height: 480px;
+	background-color: black;
+}
+
+.video {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.details-container {
+	width: 920px;
+	margin: 0 auto; 
+	position: relative;
+	top: 10px;
+}
+
+.sidebar {
+	width: 320px;
+	height: 500px;
+	float: right;
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+.up-next {
+	font-size: 12px; 
+}
+
+.next-vid {
+	margin-top: 10px;
+	position: relative;
+	left: 5px;
+}
+
+.details {
+	width: 530px;
+	background-color: #fff;
+	float: left;
+	padding: 15px;
+	margin-bottom: 10px
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.info {
+	font-size: 13px;
+}
+
+strong {
+	font-weight: 500;
+}
+
+p, h1{
+	margin: 0px;
+}
+
+.details ul {
+	margin: 0;
+	padding-left: 0;
+}
+
+.details li {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.comments-container {
+	margin-bottom: 30px;
+}
+
+#comments li {
+	margin-top: 15px;
+}
+
+a {
+	text-decoration: none; 
+	font-size: 13px;
+	font-color: gray;
+}
+
+.details a:hover {
+	text-decoration: underline;
+}
+
+.comment-here {
+	height: 50px;
+	width: 100%;
+	font-size: 12px;
+	padding: -5px 3px;
+}
+
+.avatar {
+	float: left;
+	margin-right: 5px;
+}
+
+.comment-content a {
+	color: #167AC6;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.date {
+	font-size: 10px;
+	font-color: #333;
+	margin-left: 5px;
+}
+
+.comment-content p {
+	font-size: 13px;
+}
+
+.like-dislike {
+	margin-top: 5px
+}
+
+.reply {
+	font-color: #333;
+	font-size: 12px;
+	vertical-align: top;
+	margin: 15px 10px 0 8px;
+}
+
+.footer-container {
+	clear: both;
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+	border-top: .1px #f9f9f9 solid;
+}
+
+.footer-buttons {
+	position: relative;
+	top: -1px;
+	left: -14px;
+}
+
+li button:hover {
+	background-color: #d1d1d1;
+}
